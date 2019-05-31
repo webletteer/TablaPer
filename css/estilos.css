@@ -1,0 +1,199 @@
+
+.container-header{
+  width: 300%;
+  max-width: 1000px
+}
+.logo img{
+  width: 160px;
+  height: 76px;
+  margin-top: 16px;
+  margin-left: 28px;
+}
+.tituloTest h1 {
+  border: #2930 10px double ;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+button{
+  border-radius: 9%;
+  font-family: fantasy;
+  color: #4b3621;
+}
+h1{
+  border-botton: #3c2b1a 2px double;
+  border-top: #3c2b1a 2px dotted;
+}
+.contenedor{
+  width: 98%;
+  max-width: 900px;
+  margin: auto;
+}
+h3{
+  text-align: center;
+  text-decoration: inherit;
+}
+.video1{
+  height: auto;
+  max-width: 100%;
+  max-height: auto;
+  margin-left: 17%;
+}
+video{
+    border: #4b3621 5px double;
+}
+video p {
+  font-family: 5px cursive;
+}
+.titulo3 h1 img{
+  display: inline-block;
+}
+.cuadro2{
+  width: auto;
+  max-width: 300px;
+  margin: auto;
+  float: right;
+  margin-right: 7%;
+}
+.imagendimitri{
+  margin: 3px;
+  margin-right: 10%;
+  float:right;
+  border-radius: 2%;
+  box-shadow:  0px 4px 3px rgba(255, 0, 0, 0.3);
+}
+.contenedor p {
+  margin-top: 40px;
+}
+header nav{
+  background: #4b3621;
+  opacity: 0.7;
+  border-radius: 9%;
+}
+header nav ul{
+  list-style: none;
+  overflow: hidden;
+}
+header nav ul li{
+  float: right;
+  margin-right: 5px;
+}
+
+header nav ul li a{
+  display: block;
+  padding: 5px;
+  color: #fff;
+  text.form:Arial;
+  font-size: 20px;
+  font-weight: bold;
+}
+header nav ul li:hover{
+  background: #F5B7B1;
+}
+.menu-fixed{
+position: fixed;
+z-index: 100;
+top: 0;
+left: 0;
+width: 100%;
+box-shadow: 0px 4px 3px rgba(255, 0, 0, 0.5);
+}
+.perso{
+  border:#4b3621 2px doble;
+}
+.fondo{
+  background:#F4F6F6;
+  opacity: 0.85;
+  border-radius: 5%;
+}
+.fondoR{
+  background-image: url(file:///C|/Users/Pc-angels/Desktop/TablaPer/img/encabeza.png);
+  opacity: 0.85;
+  border-bottom-right-radius:  25%;
+  border-bottom-left-radius:   25%;
+}
+
+.cuadro4{
+  width: 78%;
+  margin-left: 20%;
+}
+.imagem img{
+  width: 39px;
+  height: 40px;
+  border: #3c2b1a 3px double;
+}
+.imagem:hover {filter: opacity(.7);}
+table{
+  border-collapse:collapse;
+  margin: 20px;
+}
+body {
+	font: normal 20px/30px "Helvetica Neue", helvetica, arial, sans-serif;
+	padding: 50px;
+	color: #3c2b1a;
+  text-align: justify;
+}
+.titulo{
+  float: right;
+
+}
+.perso{
+  border-radius: 50px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.imag{
+  height: auto;
+  max-width: 100%;
+  opacity: 0.5;
+  margin: 1px;
+  margin-left: 9%;
+  border-bottom: 4px double;
+}
+.linea1{
+  border-bottom: 3px double;
+  max-width: 100%;
+}
+.i1 .i3{
+  max-width: 100%;
+  position: relative;
+}
+.imagenGiro{
+  margin: 10px;
+  border-radius: 50px;
+  padding:10px;
+  background:#4b3621;
+}
+.cuadro3{
+  margin-left: 50px;
+}
+
+.imagenGiro:hover{
+border-radius:50%;
+box-shadow: 0px 0px 15px 15px #a50303;
+}
+nav{
+    background:rgba(0,102,255,1);
+    width:1000px;
+    height:50px;
+    margin:auto;
+}
+
+.image_wrapper { position: relative; display: inline-block; width: 300px; height: 168px; margin: 3px 0 10px 0; box-shadow: 2px 3px 5px rgba(255, 0, 0, 0.5);}
+.image_wrapper img { z-index: 1000; position: absolute; top: 0; left: 0; width: 300px; height: 150px; }
+.image_wrapper span {  position: absolute; border: 0; left: 0; width: 300px; height: 168px; background: url(images/templatemo_image_bg.jpg) no-repeat }
+
+.image_fl { float: left; margin: 3px 20px 0 0 }
+.image_fr { float: right; margin: 3px 0 0 20px }
+
+.imagenatencion{
+  margin-left: 4%;
+  border: #8e072d 3px dotted;
+  margin-right: 70%;
+  width: 30%;
+  background-image: url(file:///C|/Users/Pc-angels/Desktop/TablaPer/img/dis.png);
+}
+.imagenatencion img{
+  display: inline-block;
+}

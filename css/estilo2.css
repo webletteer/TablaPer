@@ -1,0 +1,115 @@
+.cuerpo2{
+text-align: justify;
+font-family: sans-serif;
+margin: 0;
+}
+.text2{
+  background: green;
+  width: 90px;
+  height: 60px;
+}
+
+.modals{
+  width: 99%;
+  height: 1700px;
+  background: rgba(0, 0, 0, 0.9);
+  position:absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  animation: modal 1s 2s forwards;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  border: #a85418 5px double;
+}
+.textomodal{
+  margin: 10%;
+  text-align: justify;
+  font-size: 20px;
+}
+.imagbien{
+  border: #a85418 6px  dotted;
+  border-top:#a85418 10px double;
+  border-bottom:#a85418 10px double;
+
+  background:  #3d0109;
+  background: -moz-linear-gradient(-45deg, rgba(111,2,27,0.77) 0%, rgba(94,33,41,0.77) 22%, rgba(94,33,41,0.77) 23%, rgba(94,33,41,0.46) 88%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(111,2,27,0.77)), color-stop(22%, rgba(94,33,41,0.77)), color-stop(23%, rgba(94,33,41,0.77)), color-stop(88%, rgba(94,33,41,0.46)));
+  background: -webkit-linear-gradient(-45deg, rgba(111,2,27,0.77) 0%, rgba(94,33,41,0.77) 22%, rgba(94,33,41,0.77) 23%, rgba(94,33,41,0.46) 88%);
+  background: -o-linear-gradient(-45deg, rgba(111,2,27,0.77) 0%, rgba(94,33,41,0.77) 22%, rgba(94,33,41,0.77) 23%, rgba(94,33,41,0.46) 88%);
+  background: -ms-linear-gradient(-45deg, rgba(111,2,27,0.77) 0%, rgba(94,33,41,0.77) 22%, rgba(94,33,41,0.77) 23%, rgba(94,33,41,0.46) 88%);
+  background: linear-gradient(135deg, rgba(111,2,27,0.77) 0%, rgba(94,33,41,0.77) 22%, rgba(94,33,41,0.77) 23%, rgba(94,33,41,0.46) 88%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f021b', endColorstr='#5e2129', GradientType=1 );
+}
+
+.cont{
+  margin: auto;
+  width: 80%
+  height: 80%;
+  border-radius: 50px;
+  text-align: center;
+  font: 900 40px/1em Amatic SC;
+  padding-top: 8PX;
+  font-size: 15px;
+  border: #a85400 20px double;
+      background-image: url(file:///C|/Users/Pc-angels/Desktop/TablaPer/img/fonventana.jpg);
+}
+#cerrar{
+  display: none;
+}
+#cerrar + label{
+  position: fixed;
+  color: #fff;
+  font-size: 25px;
+  z-index: 50;
+  background: #a85400;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  right: 10px;
+  cursor: pointer;
+  text-align: center;
+  border: #b18219 1px double;
+
+  animation: modal 1s 3s forwards;
+  visibility: hidden;
+  opacity: 0;
+}
+.tablaelemento{
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.fondoaudio{
+  margin-left: 20%;
+}
+input[type=button] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  width: 60px;
+  height: 40px;
+  background: #4b3621;
+  border-radius: 18px;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+}
+#cerrar:checked + label, #cerrar:checked~ .modals{
+  display:none;
+}
+h6{
+  text-align: center;
+  font-size: 25px;
+  font-family: "Avant Garde", Avantgarde,"Century";
+  text-shadow: 0 0 0.8em #F88, 0 0 0.2em #F86
+}
+@keyframes modal {
+  100%{
+    visibility:visible;
+    opacity: 1;
+
+  }
+}
