@@ -193,6 +193,7 @@ nav{
   margin-right: 70%;
   width: 30%;
   background-image: url(file:///C|/Users/Pc-angels/Desktop/TablaPer/img/dis.png);
+  background:url("img/dis.png");
 }
 .imagenatencion img{
   display: inline-block;
