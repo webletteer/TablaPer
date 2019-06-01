@@ -53,8 +53,7 @@ margin: 0;
   padding-top: 8PX;
   font-size: 15px;
   border: #a85400 20px double;
-      background: url("img/fonventana.jpg");
-  background-image: url("https://webletter.github.io/TablaPer/img/fonventana.jpg");
+  background: #a85400;
 }
 #cerrar{
   display: none;
