@@ -53,6 +53,7 @@ margin: 0;
   padding-top: 8PX;
   font-size: 15px;
   border: #a85400 20px double;
+  background-image: url("img/fonventana.jpg");
   background: url("img/fonventana.jpg");
 }
 #cerrar{
