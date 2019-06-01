@@ -53,7 +53,7 @@ margin: 0;
   padding-top: 8PX;
   font-size: 15px;
   border: #a85400 20px double;
-  background: #a85400;
+  background: url("img/fonventana.jpg");
 }
 #cerrar{
   display: none;
