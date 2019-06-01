@@ -40,7 +40,7 @@ margin: 0;
   background: -o-linear-gradient(-45deg, rgba(111,2,27,0.77) 0%, rgba(94,33,41,0.77) 22%, rgba(94,33,41,0.77) 23%, rgba(94,33,41,0.46) 88%);
   background: -ms-linear-gradient(-45deg, rgba(111,2,27,0.77) 0%, rgba(94,33,41,0.77) 22%, rgba(94,33,41,0.77) 23%, rgba(94,33,41,0.46) 88%);
   background: linear-gradient(135deg, rgba(111,2,27,0.77) 0%, rgba(94,33,41,0.77) 22%, rgba(94,33,41,0.77) 23%, rgba(94,33,41,0.46) 88%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f021b', endColorstr='#5e2129', GradientType=1 );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#6f021b', endColorstr='#5e2129', GradientType=1 );
 }
 
 .cont{
@@ -54,7 +54,7 @@ margin: 0;
   font-size: 15px;
   border: #a85400 20px double;
       background: url("img/fonventana.jpg");
-  background-image: url("img/fonventana.jpg");
+  background-image: url("https://webletter.github.io/TablaPer/img/fonventana.jpg");
 }
 #cerrar{
   display: none;
