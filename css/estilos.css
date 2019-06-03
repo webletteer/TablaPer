@@ -111,6 +111,7 @@ box-shadow: 0px 4px 3px rgba(255, 0, 0, 0.5);
 	opacity: 0.85;
 	border-bottom-right-radius:  25%;
 	border-bottom-left-radius:   25%;
+	background: linear-gradiant(top, #9c9c9c, white);
 	
 }
 
@@ -194,7 +195,7 @@ nav{
   border: #8e072d 3px dotted;
   margin-right: 70%;
   width: 30%;
-  background-image: url(file:///C|/Users/Pc-angels/Desktop/TablaPer/img/dis.png);
+  background-image: url("file:img/dis.png");
   background:url("img/dis.png");
 }
 .imagenatencion img{
