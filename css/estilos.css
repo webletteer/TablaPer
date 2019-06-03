@@ -111,7 +111,7 @@ box-shadow: 0px 4px 3px rgba(255, 0, 0, 0.5);
 	opacity: 0.85;
 	border-bottom-right-radius:  25%;
 	border-bottom-left-radius:   25%;
-	background: linear-gradient(top, #9c9c9c, white);
+	background:  #9c9c9c, white;
 	
 }
 
@@ -133,14 +133,14 @@ body {
 	font: normal 20px/30px "Helvetica Neue", helvetica, arial, sans-serif;
 	padding: 50px;
 	color: #3c2b1a;
-  text-align: justify;
+	text-align: justify;
 }
 .titulo{
-  float: right;
+	float: right;
 
 }
 .perso{
-  border-radius: 50px;
+	border-radius: 50px;
 }
 img {
   max-width: 100%;
